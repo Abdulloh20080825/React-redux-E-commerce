@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+	font-weight: 400;
+}
+
+.ormon-img {
+	background-image: url('https://neftegaz.ru/upload/iblock/0d1/0d1c413f139b331604eeb31cd38dce4b.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	background-size: cover;
+}
+
+::-webkit-scrollbar {
+	height: 1px;
+}
