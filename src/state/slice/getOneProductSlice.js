@@ -6,7 +6,7 @@ const getOneProductSlice = createSlice({
 	initialState: [],
 	reducers: {
 		getOne: (state, action) => {
-			return productData.filter((x) => x.id === action.payload);
+			return (state = productData.filter((x) => x.id === action.payload));
 		},
 	},
 });
